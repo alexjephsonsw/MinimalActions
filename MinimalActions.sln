@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalActions", "MinimalActions\MinimalActions.csproj", "{6F0906DA-4D78-4D9B-AD69-485C20AEB796}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalActions", "src\MinimalActions\MinimalActions.csproj", "{6F0906DA-4D78-4D9B-AD69-485C20AEB796}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalActions.Sample", "MinimalActions.Sample\MinimalActions.Sample.csproj", "{42CC940B-3E1D-4003-BF34-75358A2F9A99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalActions.Sample", "src\MinimalActions.Sample\MinimalActions.Sample.csproj", "{42CC940B-3E1D-4003-BF34-75358A2F9A99}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swashbuckle.AspNetCore.MinimalActions", "Swashbuckle.AspNetCore.MinimalActions\Swashbuckle.AspNetCore.MinimalActions.csproj", "{274A8DA9-36E9-4896-B572-529710540E57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swashbuckle.AspNetCore.MinimalActions", "src\Swashbuckle.AspNetCore.MinimalActions\Swashbuckle.AspNetCore.MinimalActions.csproj", "{274A8DA9-36E9-4896-B572-529710540E57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
