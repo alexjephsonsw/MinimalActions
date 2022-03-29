@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MinimalActions.Sample</name>
+    </assembly>
+    <members>
+        <member name="T:MinimalActions.Sample.CustomAction">
+            <summary>
+            Actionss
+            </summary>
+        </member>
+        <member name="M:MinimalActions.Sample.CustomAction.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:MinimalActions.Sample.CustomAction.InvokeAsync(System.Int32,System.String,System.String)">
+            <summary>
+            Booma
+            </summary>
+            <param name="id">The Id</param>
+            <param name="key">The key</param>
+            <param name="bank">The query</param>
+            <returns></returns>
+        </member>
+        <member name="M:MinimalActions.Sample.CustomAction.GetAsync">
+            <summary>
+            Ho get
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MinimalActions.Sample.CustomAction.PostAsync(System.String,MinimalActions.Sample.CustomAction.TestClass,System.String,System.Int32)">
+            <summary>
+            Post DDD
+            </summary>
+            <param name="id">The id</param>
+            <param name="input"></param>
+            <param name="apiKey"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MinimalActions.Sample.CustomAction.TestClass">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:MinimalActions.Sample.CustomAction.TestClass.Value">
+            <summary>
+            The value under test.
+            </summary>
+        </member>
+        <member name="P:MinimalActions.Sample.CustomAction.TestClass.Site">
+            <summary>
+            The site to test.
+            </summary>
+        </member>
+        <member name="T:MinimalActions.Sample.NotAnAction">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:MinimalActions.Sample.FakeAction">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:MinimalActions.Sample.OtherAction">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:MinimalActions.Sample.OtherAction.InvokeAsync">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="T:MinimalActions.Sample.StaticAction">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:MinimalActions.Sample.StaticAction.CustomHandler(System.Int64,Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Custom static thing
+            </summary>
+            <param name="id">Static id</param>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
