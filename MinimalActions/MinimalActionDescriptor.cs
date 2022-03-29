@@ -35,7 +35,7 @@ namespace MinimalActions
         /// <summary>
         /// A friendly name for this action.
         /// </summary>
-        public string DisplayName { get; init; }
+        public string DisplayName { get; set; }
 
         /// <summary>
         ///

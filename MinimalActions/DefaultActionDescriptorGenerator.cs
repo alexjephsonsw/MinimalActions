@@ -87,20 +87,22 @@ namespace MinimalActions
                 httpMethods.Add(GetHttpMethodFromMethodName(methodInfo.Name));
             }
 
-            var descriptor = new MinimalActionDescriptor(type, methodInfo);
             var routePattern = GeneratePattern(type, attributeRouteInfo);
-
-            descriptor.AttributeRouteInfo = attributeRouteInfo;
-            if (displayName is not null)
-            {
-                descriptor.DisplayName = displayName;
-            }
-            descriptor.HttpMethods = httpMethods;
-            descriptor.MethodAttributes = attributes;
-            descriptor.RoutePattern = routePattern;
             if (attributeRouteInfo is not null)
             {
                 attributeRouteInfo.Template = routePattern;
+            }
+
+            var descriptor = new MinimalActionDescriptor(type, methodInfo)
+            {
+                AttributeRouteInfo = attributeRouteInfo,
+                HttpMethods = httpMethods,
+                RoutePattern = routePattern,
+            };
+
+            if (displayName is not null)
+            {
+                descriptor.DisplayName = displayName;
             }
 
             return descriptor;
